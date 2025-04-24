@@ -18,7 +18,7 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\daniil.gerasimov.TRAVELLINE\\repositories\\lifetime\\LifetimeDemo\\NuGet.Config",
+          "C:\\Users\\daniil.gerasimov.TRAVELLINE\\repositories\\lifetime\\NuGet.Config",
           "C:\\Users\\daniil.gerasimov.TRAVELLINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
@@ -28,10 +28,8 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-          "http://nuget.travelline.lan/nuget": {},
-          "http://nuget.travelline.lan:8081/repository/nugetv3-proxy/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.travelline.lan/repository/nugetv3-proxy/index.json": {},
+          "https://nuget.travelline.lan:8443/nuget/": {}
         },
         "frameworks": {
           "net8.0": {
